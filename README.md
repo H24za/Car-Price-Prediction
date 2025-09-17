@@ -6,9 +6,7 @@ An end-to-end machine learning project that predicts car prices based on feature
 
 | AC.NO | Name | Role | Contributions |
 |---:|---|---|---|
-| 1 | Alex Johnson | Lead Developer | Data preprocessing, model development |
-| 2 | Maria Garcia | Data Analyst | EDA, visualization |
-| 3 | James Chen | ML Engineer | Model optimization, deployment |
+| 1 | Hamzah Abdulqawi ALkhalaf|202274127 | Lead Developer | Data preprocessing, model development | Data Analyst | EDA, visualization | ML Engineer | Model optimization, deployment |
 
 ## Installation and Setup
 
