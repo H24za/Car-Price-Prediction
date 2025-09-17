@@ -11,7 +11,7 @@ An end-to-end machine learning project that predicts car prices based on feature
 ## Installation and Setup
 
 ### Prerequisites
-- Python 3.12 or higher
+- Python 3.12 
 - UV package manager (used in this project; if you don't use UV, follow the pip instructions below)
 
 ### Installation Steps
@@ -19,8 +19,7 @@ An end-to-end machine learning project that predicts car prices based on feature
 1. Clone the repository:
 
 ```powershell
-git clone https://github.com/your-username/car-price-prediction.git
-cd car-price-prediction
+git clone https://github.com/H24za/Car-Price-Prediction
 ```
 
 2. Install dependencies using UV (recommended):
@@ -125,27 +124,9 @@ Key findings: Gradient Boosting models (e.g., XGBoost or LightGBM) performed wel
 
 - Server lifecycle: avoid `--reload` in production runs (it spawns multiple processes). Use `scripts/run_server.ps1` for a simple detached PowerShell run.
 
-## Recommended next steps
-
-1. Implement safe unseen-label mapping in `main.py` (map unknown categorical tokens to `-1`).
-2. Add a `requirements.txt` generated from the project environment for users who don't use UV.
-3. Add unit tests for preprocessing functions and the prediction endpoint (`/predict/`).
-4. Consider switching categorical encoders to ones that support unknown categories.
-
-## Team Contributions
-
-- Alex Johnson — data preprocessing, feature engineering, model training
-- Maria Garcia — EDA, visualizations, data quality checks
-- James Chen — model selection, hyperparameter tuning and deployment automation
 
 ---
 
-If you'd like, I can now:
 
-- (A) Implement the unseen-label mapping in `main.py` and run the `API/test_request.py` smoke test, or
-- (B) Add a `requirements.txt` file and update the README to reference it, or
-- (C) Add unit tests for the preprocessing pipeline.
-
-Tell me which option to do next and I'll start working on it.
 
 
