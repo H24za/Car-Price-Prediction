@@ -1,2 +1,3 @@
-*/csv
-gi
+data\raw\car_price_prediction.csv
+__pycache__
+.venv
